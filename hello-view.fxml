@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="CENTER" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx"
+          fx:controller="com.example.simpleclothesapp.SimpleClothesController">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <!--hat-->
+    <VBox alignment="CENTER" GridPane.rowIndex="0" GridPane.columnIndex="0">
+        <ImageView fx:id="hatImageView" fitWidth="200" fitHeight="200" preserveRatio="true"/>
+        <Button text="Different Hat" onAction="#onNextHatClick" />
+    </VBox>
+
+    <!--sunglasses-->
+    <VBox alignment="CENTER" GridPane.rowIndex="0" GridPane.columnIndex="1">
+        <ImageView fx:id="sunglassesImageView" fitWidth="200" fitHeight="200" preserveRatio="true"/>
+        <Button text="Different Sunglasses" onAction="#onNextSunglassesClick" />
+    </VBox>
+
+    <!--top-->
+    <VBox alignment="CENTER" GridPane.rowIndex="1" GridPane.columnIndex="0">
+        <ImageView fx:id="topImageView" fitWidth="200" fitHeight="200" preserveRatio="true"/>
+        <Button text="Different Top" onAction="#onNextTopClick" />
+    </VBox>
+
+    <!--bracelet-->
+    <VBox alignment="CENTER" GridPane.rowIndex="1" GridPane.columnIndex="1">
+        <ImageView fx:id="braceletImageView" fitWidth="200" fitHeight="200" preserveRatio="true"/>
+        <Button text="Different Bracelet" onAction="#onNextBraceletClick" />
+    </VBox>
+
+    <!--bottom-->
+    <VBox alignment="CENTER" GridPane.rowIndex="2" GridPane.columnIndex="0">
+        <ImageView fx:id="bottomImageView" fitWidth="200" fitHeight="200" preserveRatio="true"/>
+        <Button text="Different Bottom" onAction="#onNextBottomClick" />
+    </VBox>
+
+    <!--shoes-->
+    <VBox alignment="CENTER" GridPane.rowIndex="3" GridPane.columnIndex="0">
+        <ImageView fx:id="shoesImageView" fitWidth="200" fitHeight="200" preserveRatio="true"/>
+        <Button text="Different Shoes" onAction="#onNextShoesClick" />
+    </VBox>
+</GridPane>
