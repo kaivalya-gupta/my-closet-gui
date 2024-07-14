@@ -9,3 +9,9 @@ My Closet GUI is a JavaFX application designed to help visualize and manage your
 - **GUI Development**: Developed graphical user interfaces using JavaFX and FXML, with hands-on experience in event handling and layout management.
 - **Leveraged Coursework**: Applied skills from first-year Java coursework, including OOP, JavaFX, GUI design, event handling, and hierarchy.
 - **Continuous Curiosity**: Demonstrating the ability to build upon existing knowledge and tackle new challenges by continuously expanding skills and exploring new frameworks.
+
+## Code Files
+- [SimpleClothesApp.java](SimpleClothesApp.java)
+- [SimpleClothesController.java](SimpleClothesController.java)
+- [hello-view.fxml](hello-view.fxml)
+- [pom.xml](pom.xml)
